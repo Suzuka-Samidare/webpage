@@ -1,0 +1,136 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    line-height: 2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN';
+    height: auto;   
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wrapper {
+    background: rgb(37, 37, 37);/*debug*/
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.site-header {
+    margin: 0 0 30px;
+}
+
+.site-title {
+    /* text-align: center; */
+    padding-left: 30px;
+    color: white;
+}
+
+.site-sidebar {
+    background: aqua; /*debug*/
+}
+
+.sidebar-menu {
+    margin: 0 20px 60px 0;
+}
+
+.site-item {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-list 
+.nav-list-item {
+    box-sizing: border-box;
+    /* background: skyblue; */
+}
+
+.nav-list 
+.nav-list-item  a {
+    display: block;
+    width: 230px;
+    padding: 40px 0 0 0;
+    border-bottom: 1px double black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-list 
+.nav-list-item  a:hover {
+    background: -webkit-linear-gradient(50deg, rgb(0, 161, 161), transparent);
+}
+
+
+.site-main {
+    display: flex;
+    background: skyblue;/*debug*/
+}
+
+.site-center {
+    box-sizing: border-box;
+    width: 950px;
+    margin: 0 30px 0;
+    /* margin: 0 auto 0 30px; */
+}
+
+.site-center
+.site-item {
+    font-size: 30px;
+}
+
+.update-list {
+    border: 1px solid black;
+    margin: 20px 0 60px 0;
+}
+
+.update-list
+.update-list-item {
+    margin: 25px 0 25px 40px;
+    list-style: square;
+}
+
+.update-list
+.update-list-item a {
+    text-decoration: none;
+}
+
+.contents-date {
+    margin: 25px 0 0;
+}
+
+.contents-title {
+    display: block;
+    margin: 0 0 15px;
+}
+
+.site-footer {
+    margin: 5px 0;
+}
+
+.footer-list {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer-list
+.footer-list-item a {
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+.copy {
+    color: white;
+}
